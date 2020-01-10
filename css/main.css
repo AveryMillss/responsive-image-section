@@ -45,7 +45,7 @@ body {
 
 a {
   padding: 0.5em 0.75em;
-  color: #fff;
+  color: #e2e2e2;
   text-decoration: none;
 }
 
@@ -69,8 +69,13 @@ p {
     margin-top: 3rem;;
   }
 
+  .img {
+    width: 50%;
+  }
+
   .content {
-    width: 100%;
+    width: 50%;
+    font-size: 1rem;
   }
 
   .body {
@@ -81,10 +86,22 @@ p {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
+
+  .content {
+    padding-top: 5rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  .body {
+    display: block;
+    padding: 0 3rem;
+  }
 
 }
